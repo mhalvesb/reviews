@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: #2e3544;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #d1d1d1;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h2{
+    letter-spacing: 10px;
+    font-size: 35px;
+    color: #2e3544;
+}
+.underline{
+    height: 4px;
+    background-color: #0070ff;
+    width: 20%;
+    margin: 0px 0px 30px 0px;
+}
+.review{
+    background-color: white;
+    width: 650px;
+    height: 480px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px -1px 29px -10px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    background-image: url(images/1.jpg);
+    box-shadow: 19px -17px 0px -7px rgba(8,165,250,1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    
+}
+
+.img-container p {
+    font-size: 60px;
+    background-color: rgba(8,165,250,1);
+    width: 70px;
+    height: 70px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 35px;
+    color: #FFF;
+    margin-top: 0px;
+}
+
+
+.name h1{
+    margin: 10px 0px 0px 0px;
+    letter-spacing: 3px;
+}
+
+.prof h1{
+    margin: 0px 0px 10px 0px;
+    color: #40f7ff;
+    font-weight: 500;
+}
+
+.desc p{
+    margin: 0px 0px 20px 0px;
+    color: #9cb2e3;
+    text-align: center;
+    height: 70px;
+}
+
+.buttons button{
+    color: #40f7ff;
+    font-size: 30px;
+    cursor: pointer;
+    line-height: 20px;
+    background: transparent;
+    border: none;
+    margin: 0px 10px 25px 10px;
+}
+
+.surprise button{
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid #0070ff;
+    cursor: pointer;
+    background: -webkit-linear-gradient(#40f7ff, #0070ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
