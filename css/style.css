@@ -14,7 +14,12 @@ body, html{
     height: 100vh;
     background-color: #d1d1d1;
 }
-
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .title{
     display: flex;
@@ -107,6 +112,85 @@ body, html{
     background: -webkit-linear-gradient(#40f7ff, #0070ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+
+
+@media(max-width: 768px) and (min-width: 580px){
+    .title h2 {
+        font-size: 25px;
+    }
+    .underline{
+        width: 15%;
+    }
+    .review{
+        width: 500px;
+        height: 360px;
+    }
+    .img-container{
+        width: 120px;
+        height: 120px;
+        box-shadow: 12px -10px 0px 0px rgba(8,165,250,1);
+    }
+    .name h1{
+        font-size: 18px;
+    }
+    .prof h1{
+        font-size: 16px;
+    }
+    .desc p{
+        font-size: 15px;
+    }
+    .img-container p{
+        width: 35px;
+        height: 35px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 567px){
+    .title h2{
+        font-size: 18px;
+        letter-spacing: 6px;
+    }
+    .underline{
+        width: 10%;
+    }
+    .review{
+        width: 80%;
+        height: 50%;
+        padding: 8px;
+    }
+    .img-container{
+        width: 50px;
+        height: 50px;
+        box-shadow: 8px -3px 0px -2px rgba(8,165,250,1);
+    }
+    .img-container p{
+        width: 20px;
+        height: 20px;
+        line-height: 26px;
+        font-size: 20px;
+    }
+    .name h1{
+        font-size: 9px;
+    }
+    .prof h1{
+        font-size: 10px;
+    }
+    .desc p{
+        font-size: 10px;
+    }
+
+    .buttons button{
+        font-size: 20px;
+        margin: 0px 10px 8px 10px;
+    }
+    .surprise button{
+        font-size: 10px;
+    }
 }
 
 
